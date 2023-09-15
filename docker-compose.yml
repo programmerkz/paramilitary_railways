@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+  rws.webapi:
+    image: ${DOCKER_REGISTRY-}rwswebapi
+    build:
+      context: .
+      dockerfile: src/RWS.WebAPI/Dockerfile
+    ports:
+      - "4004:5000"
+
