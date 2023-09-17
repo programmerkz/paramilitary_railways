@@ -1,2 +1,2 @@
-# tolkyn-backend-net
+# backend (.net) for mobile app
 
